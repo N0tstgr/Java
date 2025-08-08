@@ -1,6 +1,6 @@
 package Notstranger.linux;
 
-public class Not_60_PS_onAbstractAndInterfaces {
+public class Not_64_ch12 {
     public static void main(String[] args) {
 
     }
