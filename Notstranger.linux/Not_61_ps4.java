@@ -25,9 +25,13 @@ void issuebook(String book){
         for (String b: this.books){
             if(b == book){
                 System.out.println("The book has been issued ");
+                b = null;
             }
             System.out.println("* "+ b);
         }
+}
+void returnBook(String book){
+        addBooks(book);
 }
 }
 public class Not_61_ps4 {
@@ -37,7 +41,10 @@ public class Not_61_ps4 {
         central.addBooks("Algorithm");
         central.addBooks("Linux Terminal");
         central.addBooks("how to start a startup");
+
         central.issuebook("Linux Terminal");
+        central.showAvailableBooks();
+        central.returnBook("Linux Terminal");
         central.showAvailableBooks();
     }
 }
