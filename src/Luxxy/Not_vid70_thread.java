@@ -23,7 +23,7 @@ class Mythread2 extends Thread{
         }
     }
 }
-public class Not_vid7_thread {
+public class Not_vid70_thread {
     public static void main(String[] args) {
 Mythread t1 = new Mythread();
 Mythread2 t2 = new Mythread2();
