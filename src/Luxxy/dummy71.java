@@ -1,5 +1,5 @@
 package Luxxy;
-class MyThreadRun implements Runnable {
+class MyThreadRun4 implements Runnable {
     public void run() {
         int i = 10;
         while(i<18) {
@@ -8,7 +8,7 @@ class MyThreadRun implements Runnable {
         }
     }
 }
-class MyThreadRunnable2 implements Runnable{
+class MyThreadRunnable3 implements Runnable{
     public void run(){
         int i = 10;
         while(i<15) {
@@ -17,16 +17,16 @@ class MyThreadRunnable2 implements Runnable{
         }
     }
 }
-public class Not_vid71_runnableInterface {
+public class dummy71 {
     public static void main(String[] args) {
 
-        MyThreadRun bullet1 = new MyThreadRun();
-        Thread gun1 = new Thread(bullet1);
+        MyThreadRun4 gun1= new MyThreadRun4();
 
-        MyThreadRunnable2 bullet2 = new MyThreadRunnable2();
-        Thread gun2 = new Thread(bullet2);
 
-        gun1.start();
-        gun2.start();
+        MyThreadRunnable3 gun2 = new MyThreadRunnable3();
+
+
+        gun1.run();
+        gun2.run();
     }
 }
