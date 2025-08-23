@@ -6,21 +6,26 @@ class MyNewThr1 extends Thread{
         while(true){
             System.out.println("I am a billionaire at the age of 21" );
             try {
-                Thread.sleep(5555);
+                Thread.sleep(555);
             } catch (InterruptedException e) {
                 throw new RuntimeException(e);
             }
-            i++;
+//            i++;
         }
     }
 }
 
 class MyNewThr2 extends Thread{
     public void run(){
-                 int i = 10;
-        while(i<11){
+//                 int i = 10;
+        while(true){
             System.out.println("vikash is great" );
-            i++;
+            try {
+                Thread.sleep(555);
+            } catch (InterruptedException e) {
+                throw new RuntimeException(e);
+            }
+//            i++;
         }
     }
 }
