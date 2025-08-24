@@ -20,6 +20,15 @@ int j = sc.nextInt();
             System.out.println("The value of array-value/number is : " + marks[j]/number);
         }catch (Exception e){
             System.out.println("some exception occured!  ");
+            System.out.println(e);
+        }
+        catch (Exception e){
+            System.out.println("some exception occured!  ");
+            System.out.println(e);
+        }
+        catch (Exception e){
+            System.out.println("some exception occured!  ");
+            System.out.println(e);
         }
 
 
