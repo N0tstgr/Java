@@ -18,6 +18,8 @@ int j = sc.nextInt();
         try {
             System.out.println("The value at array index entered is : " + marks[j]);
             System.out.println("The value of array-value/number is : " + marks[j]/number);
+        }catch (Exception e){
+            System.out.println("some exception occured!  ");
         }
 
 
