@@ -18,16 +18,16 @@ int j = sc.nextInt();
         try {
             System.out.println("The value at array index entered is : " + marks[j]);
             System.out.println("The value of array-value/number is : " + marks[j]/number);
-        }catch (Exception e){
-            System.out.println("some exception occured!  ");
+        }catch (ArithmeticException e){
+            System.out.println("Arithmeticexception occured!  ");
             System.out.println(e);
         }
-        catch (Exception e){
-            System.out.println("some exception occured!  ");
+        catch ( ArrayIndexOutOfBoundsException e) {
+            System.out.println("ArrayIndexOutOfBoundsException occured!  ");
             System.out.println(e);
-        }
-        catch (Exception e){
-            System.out.println("some exception occured!  ");
+
+        }  catch (Exception e){
+            System.out.println("some  other exception occured!  ");
             System.out.println(e);
         }
 
