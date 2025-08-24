@@ -9,6 +9,17 @@ marks[0] = 8;
 marks[1] = 5;
 marks[2] = 3;
 Scanner sc = new Scanner(System.in);
-j = sc.nextInt();
+        System.out.println("Enter the array index : ");
+
+int j = sc.nextInt();
+        System.out.println("Enter the number you want to divide the value with ");
+        int number = sc.nextInt();
+
+        try {
+            System.out.println("The value at array index entered is : " + marks[j]);
+            System.out.println("The value of array-value/number is : " + marks[j]/number);
+        }
+
+
     }
 }
