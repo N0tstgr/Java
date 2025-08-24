@@ -1,5 +1,8 @@
 package Luxxy;
 
+import java.util.Scanner;
+
+
 public class Not_vid79_sy_Run_lgerror {
     public static void main(String[] args) {
         //Syntax Error demo
@@ -15,7 +18,10 @@ public class Not_vid79_sy_Run_lgerror {
 
 
         //Runtime Error
-
+int k;
+        Scanner sc = new Scanner(System.in);
+        k = sc.nextInt();
+        System.out.println("Integer part of 1000 divided by k is " + 1000/k);
 
     }
 }
