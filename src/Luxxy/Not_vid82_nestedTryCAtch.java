@@ -8,8 +8,9 @@ public class Not_vid82_nestedTryCAtch {
         marks[2] = 76;
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the value of index");
-        int m = sc.nextInt();
+
         try {
+            int m = sc.nextInt();
             System.out.println("Welcome to video on 82");
             try{
                 System.out.println(marks[m]);
