@@ -15,10 +15,16 @@ public class Not_vid83_ExceptionClass {
     public static void main(String[] args) {
 
 
-        int a = 9;
+        int a;
         Scanner sc = new Scanner(System.in);
-        if (a<99){
-            throw new MyException();
+        a = sc.nextInt();
+        if (a<9){
+            try {
+                throw new MyException();
+            }catch(Exception e){
+                System.out.println(e.getMessage());
+            }
+
         }
     }
 }
