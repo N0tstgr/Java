@@ -15,7 +15,7 @@ public class Not_vid83_ExceptionClass {
     public static void main(String[] args) {
 
 
-        int a;
+//        int a;
         Scanner sc = new Scanner(System.in);
         a = sc.nextInt();
         if (a<9){
