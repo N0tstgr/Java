@@ -22,12 +22,13 @@ public class Not_vid83_ExceptionClass {
 //        String b = sc.next();
         if (a<9){
             try {
-                throw new MyException();
+//                throw new MyException();
+                throw new ArithmeticException("this is an exception");
             }catch(Exception e){
                 System.out.println( e.getMessage());
                 System.out.println(e.toString());
                 e.printStackTrace();
-
+                System.out.println("yes finishedddddd");
 
             }
             System.out.println("it's done!");
