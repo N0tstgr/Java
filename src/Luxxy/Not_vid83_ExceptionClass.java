@@ -1,15 +1,15 @@
 package Luxxy;
+import java.lang.Throwable;
 import java.util.Scanner;
 class MyException extends Exception{
     @Override
     public String toString(){
-
-        return super.toString() + "I am to String";
+        return "I am to String";
     }
 
     @Override
     public String getMessage() {
-        return super.getMessage() + " I am getMessage";
+        return " I am getMessage";
     }
 }
 public class Not_vid83_ExceptionClass {
@@ -19,24 +19,21 @@ public class Not_vid83_ExceptionClass {
         int a;
         Scanner sc = new Scanner(System.in);
         a = sc.nextInt();
-        String b = sc.next();
+//        String b = sc.next();
         if (a<9){
             try {
                 throw new MyException();
             }catch(Exception e){
-                System.out.println("Integer Exception" + e.getMessage());
+                System.out.println( e.getMessage());
+                System.out.println(e.toString());
+                e.printStackTrace();
+
+
             }
+            System.out.println("it's done!");
 
         }
 
-        //for String
-        if (b.length()<3){
-            try {
-                throw new MyException();
 
-            }catch(Exception e){
-                System.out.println("String Exception"+e.getMessage());
-            }
-        }
     }
 }
