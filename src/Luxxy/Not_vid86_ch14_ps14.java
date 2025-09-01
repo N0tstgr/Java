@@ -1,6 +1,11 @@
 package Luxxy;
-import java.util.Scanner;
 
+class MyException1 extends Exception{
+    public MyException1(String message){
+        super (message);
+    }
+
+}
 public class Not_vid86_ch14_ps14 {
     public static void main(String[] args) {
         //Problem 1
@@ -50,39 +55,50 @@ public class Not_vid86_ch14_ps14 {
 //
 //    }
 //
+
+
 //if(i>=5){
 //    System.out.println("Error");
 //}
 
 //Problem 4
-        boolean flag = true;
-        int [] marks = new int[3];
-        marks[0] = 9;
-        marks[1] = 4;
-        marks[2] = 2;
-        Scanner sc = new Scanner(System.in);
-        int i = 0;
-//int index;
-        while(flag && i<5){
-            try {
+//        boolean flag = true;
+//        int [] marks = new int[3];
+//        marks[0] = 9;
+//        marks[1] = 4;
+//        marks[2] = 2;
+//        Scanner sc = new Scanner(System.in);
+//        int i = 0;
+////int index;
+//        while(flag && i<5){
+//            try {
+//
+//                System.out.println("Enter the Value of the Index : ");
+//                int  index = sc.nextInt();
+//                System.out.println("The value of the marks[index] is " + marks[index]);
+//                break;
+//            }catch (Exception e){
+//                System.out.println("Invalid Index"  + e.getMessage());
+//                i++;
+//            }
+//
+//
+//
+//        }
+//
+//        if(i>=5){
+//            System.out.println("Error");
+//        }
 
-                System.out.println("Enter the Value of the Index : ");
-                int  index = sc.nextInt();
-                System.out.println("The value of the marks[index] is " + marks[index]);
-                break;
-            }catch (Exception e){
-                System.out.println("Invalid Index"  + e.getMessage());
-                i++;
-            }
+        //Problem5
+
+  try {
+      throw  new MyException1("this is new exception");
+  }catch(Exception e){
+      System.out.println("this is the upgradded" + e.getMessage());
+  }
 
 
 
-        }
-
-        if(i>=5){
-            System.out.println("Error");
-        }
-
-
-}
+    }
 }
