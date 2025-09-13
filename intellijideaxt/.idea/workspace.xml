@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a992728e-17fb-4a97-923c-005eff328882" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2sXWEFHuNQqHMU07gh4L7ig5txm" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.CricketGame.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.Not04_literals.executor": "Run",
+    "Application.Not_05_Takinginput.executor": "Run",
+    "Application.Not_Ch1_PS.executor": "Run",
+    "Application.Not_ch1practice1.executor": "Run",
+    "Application.Not_ch2_psQ3.executor": "Run",
+    "Application.Not_ch2_ps_Q5.executor": "Run",
+    "Application.Not_ch2operators.executor": "Run",
+    "Application.Not_ch2pctsetQ1.executor": "Run",
+    "Application.Not_ch2prtceset.executor": "Run",
+    "Application.Not_ch2prtstq2.executor": "Run",
+    "Application.Not_ch2vid10resultingdatatypes.executor": "Run",
+    "Application.Not_ch2vid11.executor": "Run",
+    "Application.Not_ch2vid9.executor": "Run",
+    "Application.Not_ch3Strings.executor": "Run",
+    "Application.Not_ch3_ps_vid15.executor": "Run",
+    "Application.Not_ch3_vid14stringmethods.executor": "Run",
+    "Application.Not_exercise1.executor": "Run",
+    "Application.Not_ps_ch2Q4.executor": "Run",
+    "Application.Not_rockpaperscissor.executor": "Run",
+    "Application.Not_vid16conditionals.executor": "Run",
+    "Application.Not_vid17logicaloperators.executor": "Run",
+    "Application.Not_vid18_switchcasestmnt.executor": "Run",
+    "Application.Not_vid19_ps4ka2.executor": "Run",
+    "Application.Not_vid19ps4.executor": "Run",
+    "Application.Not_vid21loops.executor": "Run",
+    "Application.Not_vid22dowhile.executor": "Run",
+    "Application.Not_vid23forloop.executor": "Run",
+    "Application.Not_vid24Continuity.executor": "Run",
+    "Application.Not_vid24statement.executor": "Run",
+    "Application.Not_vid25ch5ps.executor": "Run",
+    "Application.Not_vid25ch5psbyme.executor": "Run",
+    "Application.Not_vid25ps2byhim.executor": "Run",
+    "Application.Not_vid26_indarray.executor": "Run",
+    "Application.Not_vid27_foreachloopinjava.executor": "Run",
+    "Application.Not_vid28_mltarray.executor": "Run",
+    "Application.ch2quiz.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "kotlin-language-version-configured": "true",
+    "settings.editor.selected.configurable": "preferences.editor"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.Not_vid25ch5psbyme">
+    <configuration name="Not_vid25ch5psbyme" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Not_vid25ch5psbyme" />
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Not_vid25ps2byhim" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Not_vid25ps2byhim" />
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Not_vid26_indarray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Not_vid26_indarray" />
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Not_vid27_foreachloopinjava" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Not_vid27_foreachloopinjava" />
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Not_vid28_mltarray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Not_vid28_mltarray" />
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Not_vid25ch5psbyme" />
+        <item itemvalue="Application.Not_vid28_mltarray" />
+        <item itemvalue="Application.Not_vid27_foreachloopinjava" />
+        <item itemvalue="Application.Not_vid26_indarray" />
+        <item itemvalue="Application.Not_vid25ps2byhim" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a992728e-17fb-4a97-923c-005eff328882" name="Changes" comment="" />
+      <created>1738602289546</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1738602289546</updated>
+    </task>
+    <servers />
+  </component>
+</project>
