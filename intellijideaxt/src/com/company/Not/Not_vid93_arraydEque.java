@@ -8,6 +8,7 @@ public class Not_vid93_arraydEque {
         ad.add(8);
         ad.add(85);
         ad.add(86);
+        ad.add(86);
 ad.addFirst(45);
         System.out.println(ad.getFirst());
 
