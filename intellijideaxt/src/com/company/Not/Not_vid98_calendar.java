@@ -1,0 +1,8 @@
+package Not;
+import java.util.Calendar;
+public class Not_vid98_calendar {
+    public static void main(String[] args) {
+Calendar c = Calendar.getInstance();
+        System.out.println(c.getCalendarType());
+    }
+}
