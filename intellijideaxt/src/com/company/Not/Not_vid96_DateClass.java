@@ -11,6 +11,9 @@ public class Not_vid96_DateClass {
         System.out.println(d.getDate());
         System.out.println(d.getSeconds());
         System.out.println(d.getYear());
+        System.out.println(d.getMonth());
+
+
 
     }
 }
