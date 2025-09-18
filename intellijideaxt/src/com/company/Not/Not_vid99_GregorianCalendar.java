@@ -1,7 +1,7 @@
 package Not;
 import java.util.Calendar;
 import java.util.TimeZone;
-public class Not_vid98_calendar {
+public class Not_vid99_GregorianCalendar {
     public static void main(String[] args) {
 //Calendar c = Calendar.getInstance();
 //        System.out.println(c.getCalendarType());
@@ -11,6 +11,7 @@ public class Not_vid98_calendar {
         Calendar c = Calendar.getInstance(TimeZone.getTimeZone("Asia/Singapore"));
         System.out.println(c.getCalendarType());
         System.out.println(c.getTimeZone().getID());
+        System.out.println(c.getTime());
 
     }
 }
