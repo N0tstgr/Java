@@ -23,6 +23,7 @@ GregorianCalendar cal = new GregorianCalendar();
         System.out.println(TimeZone.getAvailableIDs()[1]);
         System.out.println(TimeZone.getAvailableIDs()[2]);
         System.out.println(TimeZone.getAvailableIDs()[3]);
+        System.out.println(TimeZone.getAvailableIDs()[4]);
 
     }
 }
