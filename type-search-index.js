@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"Not","l":"Not_vid101_DAteTimeFormatter"}];updateSearchResults();
